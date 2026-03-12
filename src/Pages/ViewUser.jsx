@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Camera, Pencil, Edit2, Save } from "lucide-react";
-import profileImg from "../Assets/Profile.jpg";
-import coverImg from "../Assets/Cover.jpg";
+import profileImg from "../assets/Profile.jpg";
+import coverImg from "../assets/Cover.jpg";
 
 const ViewUser = () => {
   const [editing, setEditing] = useState({
