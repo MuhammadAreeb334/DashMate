@@ -1,11 +1,16 @@
 import React from "react";
 import { RefreshCcw } from "lucide-react";
-import Profile1 from "../assets/profile.jpg";
-import Profile2 from "../assets/profile.jpg";
-import Profile3 from "../assets/profile.jpg";
-import Profile4 from "../assets/profile.jpg";
+// import Profile1 from "./Profile.jpg";
+// import Profile2 from "../assets/profile.jpg";
+// import Profile3 from "../assets/profile.jpg";
+// import Profile4 from "../assets/profile.jpg";
 
 const CustomerOrder = () => {
+  const Profile1='./profile.jpg'
+  const Profile2='./profile.jpg'
+  const Profile3='./profile.jpg'
+  const Profile4='./profile.jpg'
+  
   const order = [
     {
       id: 1,

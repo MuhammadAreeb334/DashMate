@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/Logo.png";
+// import Logo from "../assets/Logo.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import {
   LayoutDashboard,
@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 
 const Sidebar = ({ menuOpen, setMenuOpen }) => {
+  const Logo='./logo.png'
   const handleMenu = () => setMenuOpen(false);
   const navigate = useNavigate()
 

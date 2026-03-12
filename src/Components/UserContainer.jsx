@@ -4,6 +4,7 @@ import { Search, Plus, MoreVertical, Eye, Edit } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const UserContainer = () => {
+  const profile1='./profile.jpg'
   const users = [
     {
       id: 1,

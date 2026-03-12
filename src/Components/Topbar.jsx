@@ -4,6 +4,7 @@ import { Menu } from "lucide-react";
 import Profile from "../assets/Profile.jpg";
 
 const Topbar = ({ menuOpen, setMenuOpen }) => {
+  const Profile='./profile.jpg'
   const handleMenu = () => setMenuOpen(!menuOpen);
   console.log(menuOpen)
 
