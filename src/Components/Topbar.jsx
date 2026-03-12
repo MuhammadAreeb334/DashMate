@@ -1,7 +1,7 @@
 import React from "react";
 import DateRangeSelector from "./DateRangeSelector";
 import { Menu } from "lucide-react";
-import Profile from "../assets/Profile.jpg";
+// import Profile from "../assets/Profile.jpg";
 
 const Topbar = ({ menuOpen, setMenuOpen }) => {
   const Profile='./profile.jpg'

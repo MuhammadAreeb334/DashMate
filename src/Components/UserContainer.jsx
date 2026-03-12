@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profile1 from "../assets/profile.jpg";
+// import profile1 from "../assets/profile.jpg";
 import { Search, Plus, MoreVertical, Eye, Edit } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
