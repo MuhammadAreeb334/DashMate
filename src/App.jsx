@@ -6,6 +6,7 @@ import CreateUser from "./Pages/CreateUser";
 import ViewUser from "./Pages/ViewUser";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
+import Settings from "./Pages/Settings";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="user" element={<UserPage />} />
         <Route path="/user/create" element={<CreateUser />} />
         <Route path="/user/view/:id" element={<ViewUser />} />
+        <Route path="settings" element={<Settings />} />
+
         {/* <Route path="messages" element={<div>Messages Page</div>} />
         <Route path="customers" element={<div>Customers Page</div>} /> */}
       </Route>
