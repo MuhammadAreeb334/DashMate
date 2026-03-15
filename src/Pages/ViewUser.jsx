@@ -4,8 +4,8 @@ import { Camera, Pencil, Edit2, Save } from "lucide-react";
 // import coverImg from "../assets/Cover.jpg";
 
 const ViewUser = () => {
-  const profileImg = "./profile.jpg";
-  const coverImg = "./cover.jpg";
+  const profileImg = "/profile.jpg"; 
+  const coverImg = "/cover.jpg";
   const [editing, setEditing] = useState({
     about: false,
     skills: false,
